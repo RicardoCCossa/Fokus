@@ -9,10 +9,10 @@ const startPauseBtn = document.querySelector('#start-pause')
 const botoes =  document.querySelectorAll('.app__card-button')
 const musicaFocoInput = document.querySelector('#alternar-musica')
 
-const musica = new Audio('/sons/luna-rise-part-one.mp3')
-const somInicio = new Audio('/sons/play.wav')
-const somPause = new Audio('/sons/pause.mp3')
-const somFim = new Audio('/sons/beep.mp3')
+const musica = new Audio('sons/luna-rise-part-one.mp3')
+const somInicio = new Audio('sons/play.wav')
+const somPause = new Audio('sons/pause.mp3')
+const somFim = new Audio('sons/beep.mp3')
 musica.loop = true
 
 let tempoInicial = 5
